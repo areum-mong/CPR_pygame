@@ -13,6 +13,27 @@
 
 ---
 
+## 🖼️ 게임 화면
+
+### 🎬 타이틀 화면
+![title](docs/screenshots/title_screen.png)
+
+### 📖 게임 방법 안내
+![how to play](docs/screenshots/howtogame.png)
+
+### 🎮 게임플레이
+| | |
+|---|---|
+| ![gameplay1](docs/screenshots/gameplay1.png) | ![gameplay2](docs/screenshots/gameplay2.png) |
+| ![gameplay3](docs/screenshots/gameplay3.png) | ![gameplay4](docs/screenshots/gameplay4.png) |
+
+![gameplay5](docs/screenshots/gamplay5.png)
+
+### 🏆 결과 화면
+![result](docs/screenshots/result.png)
+
+---
+
 ## 🎮 게임 방법
 
 | 단계 | 동작 |
