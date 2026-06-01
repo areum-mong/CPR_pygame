@@ -7,9 +7,9 @@
 
 ## 🎬 시연 영상 & 발표 자료
 
-<video src="docs/screenshots/video.mp4" controls width="700"></video>
+![CPR 게임 시연 영상](docs/screenshots/video.mp4)
 
-> 영상이 재생되지 않는 경우 → [📥 video.mp4 다운로드](docs/screenshots/video.mp4)
+> 영상이 재생되지 않는 경우 → [📥 Releases에서 다운로드](https://github.com/areum-mong/CPR_pygame/releases/tag/v1.0.0)
 
 📂 **발표 자료:** [`파이썬을 활용한 CPR_GAME.pptx`](파이썬을%20활용한%20CPR_GAME.pptx)
 
