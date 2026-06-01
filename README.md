@@ -5,6 +5,16 @@
 
 ---
 
+## 🎬 시연 영상 & 발표 자료
+
+<video src="docs/screenshots/video.mp4" controls width="700"></video>
+
+> 영상이 재생되지 않는 경우 → [📥 video.mp4 다운로드](docs/screenshots/video.mp4)
+
+📂 **발표 자료:** [`파이썬을 활용한 CPR_GAME.pptx`](파이썬을%20활용한%20CPR_GAME.pptx)
+
+---
+
 ## 📌 프로젝트 소개
 
 **두쫀쿠 CPR**은 심폐소생술(CPR)의 올바른 가슴압박 속도(**분당 110회**)를 플레이어가 리듬 게임 형식으로 직접 체험하며 익힐 수 있도록 설계된 pygame 기반 교육용 게임입니다.
@@ -15,22 +25,40 @@
 
 ## 🖼️ 게임 화면
 
-### 🎬 타이틀 화면
-![title](docs/screenshots/title_screen.png)
-
-### 📖 게임 방법 안내
-![how to play](docs/screenshots/howtogame.png)
-
-### 🎮 게임플레이
-| | |
-|---|---|
-| ![gameplay1](docs/screenshots/gameplay1.png) | ![gameplay2](docs/screenshots/gameplay2.png) |
-| ![gameplay3](docs/screenshots/gameplay3.png) | ![gameplay4](docs/screenshots/gameplay4.png) |
-
-![gameplay5](docs/screenshots/gamplay5.png)
-
-### 🏆 결과 화면
-![result](docs/screenshots/result.png)
+<table>
+  <tr>
+    <td align="center"><b>🎬 타이틀</b></td>
+    <td align="center"><b>📖 게임 방법</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/title_screen.png" width="380"/></td>
+    <td><img src="docs/screenshots/howtogame.png" width="380"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>🎮 게임플레이 1</b></td>
+    <td align="center"><b>🎮 게임플레이 2</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/gameplay1.png" width="380"/></td>
+    <td><img src="docs/screenshots/gameplay2.png" width="380"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>🎮 게임플레이 3</b></td>
+    <td align="center"><b>🎮 게임플레이 4</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/gameplay3.png" width="380"/></td>
+    <td><img src="docs/screenshots/gameplay4.png" width="380"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>🎮 게임플레이 5</b></td>
+    <td align="center"><b>🏆 결과 화면</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/gamplay5.png" width="380"/></td>
+    <td><img src="docs/screenshots/result.png" width="380"/></td>
+  </tr>
+</table>
 
 ---
 
@@ -77,9 +105,12 @@ CPR_Project/
 │   ├── rhythm_scene.py      # 메인 리듬 게임 화면
 │   └── result_scene.py      # 결과 화면
 │
-└── assets/
-    └── images/
-        └── bg_title.png     # 타이틀 배경 이미지
+├── assets/
+│   └── images/
+│       └── bg_title.png     # 타이틀 배경 이미지
+│
+└── docs/
+    └── screenshots/         # 게임 스크린샷 & 시연 영상
 ```
 
 ---
@@ -128,14 +159,6 @@ python main.py
 ### 설정 관리 (`config.py`)
 - 화면 크기, FPS, 색상, 경로를 중앙 집중식으로 관리
 - `os.path`를 이용해 플랫폼에 무관한 에셋 경로 처리
-
----
-
-## 📊 발표 자료
-
-프로젝트의 기획 배경, 시스템 설계, 구현 과정은 아래 발표 자료를 참고하세요.
-
-📂 [`파이썬을 활용한 CPR_GAME.pptx`](파이썬을%20활용한%20CPR_GAME.pptx)
 
 ---
 
