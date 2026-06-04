@@ -68,8 +68,9 @@ https://github.com/user-attachments/assets/71669ca7-6afa-4745-8c67-3c00f85462d4
 |------|------|
 | 1 | 시나리오 모드에서 CPR 절차에 맞는 숫자를 눌러 시작 |
 | 2 | 게임 실행 후 화면이 뜨면 `SPACE`를 눌러 시작 |
-| 3 | 화면 중앙의 캐릭터를 보며 110 BPM 박자에 맞춰 `SPACE` 반복 입력 |
-| 4 | PERFECT / GREAT / MISS 판정과 점수 확인 |
+| 3 | 화면 하단의 화살표 방향을 보며 110 BPM 박자에 맞춰 알맞는 `화살표키` 반복 입력 |
+| 4 | 콤보 달성시 필살기 타임인 AED TIME과 함께 `SPACE`를 연타하기
+| 5 | PERFECT / GREAT / MISS 판정과 점수 확인 |
 
 
 ### 🏅 판정 기준
